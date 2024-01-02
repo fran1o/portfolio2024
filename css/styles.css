@@ -1,0 +1,262 @@
+
+/*sm*/
+@media (min-width: 576px) {
+}
+/*md*/
+@media (min-width: 768px) {
+
+}
+/*lg*/
+@media (min-width: 992px) {
+
+}
+/*xl*/
+@media (min-width: 1200px) {
+
+}
+/*xxl*/
+@media (min-width: 1400px) {
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../img/fondosobremi.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body, h1, h2, h3, h4 {
+    font-weight: 300 !important;
+    
+}
+
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+header{
+    min-height: 100px;
+    max-height: 200px;
+    background-color: rgba(169, 205, 200, 0.866);
+}
+
+.fran{
+    font-weight: 350 !important;
+    font-family: "Noto Sans";
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.fran:hover{
+    color: white;
+    border-left: 1px solid black;
+    padding: 5px;
+
+}
+nav ul{
+    list-style: none;
+    padding: 2px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight: 300 !important;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+nav ul li a:hover{
+    color: white;
+    border-left: 1px solid black;
+    padding: 5px;
+}
+
+
+/*PORTADA*/
+
+.portadaContainer{
+    height: 100vh;
+    
+}
+
+.textoPortada{
+    font-family: "Noto Sans";
+    font-style: italic;
+}
+
+.contenedorRedesPortada{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.redesPortada{
+    color: black;
+}
+
+.redesPortada:hover{
+    color: rgb(128, 106, 236);
+}
+
+
+
+h4{
+    font-style: italic;
+}
+
+.hi{
+    font-family: 'Oswald', sans-serif; 
+    border-top: 1px solid;
+}
+
+.imgYo{
+    border-radius: 50%;
+    opacity: 0.8;
+    max-height: 300px;
+    
+}
+
+.figureYo{
+    border-top: 1px solid;
+}
+/*CONTACTO*/
+
+#contacto{
+    width: 300px;
+    height: 50vh;
+    background-color: rgba(169, 205, 200, 0.866);
+    position: fixed;
+    right: -270px;
+    transition: right 1s;
+}
+
+#contacto:hover{
+    right: 0;
+}
+
+#contacto p{
+    font-weight: 300 !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*PROYECTOS*/
+.fondo{
+    background-color: rgba(169, 205, 200, 0.866);
+}
+
+.divProyectos{
+    border: 1px solid white;
+}
+
+article{
+    padding: 10px;
+}
+
+@keyframes show{
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    
+    animation-timeline: --image;
+    animation-name: show;
+
+    
+}
+
+
+
+article h2{
+    color: white;
+}
+
+article img{
+    width: 300px;
+}
+
+.verdemos{
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+    background-color: black;
+    padding: 10px;
+}
+
+.verdemos:hover{
+    color: black;
+    background-color: aquamarine;
+}
+
+/*APTITUDES*/
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+label{
+    font-family: 'Oswald', sans-serif; 
+}
+/*SOBRE MI*/
+
+.fondoGris{
+    background-color:rgba(193, 190, 190, 0.351);
+}
+
+.vercv{
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+    background-color: black;
+    padding: 10px;
+}
+
+.vercv:hover{
+    color: black;
+    background-color: aquamarine;
+}
+/*FOOTER*/
+
+footer{
+    background-color: rgba(169, 205, 200, 0.866);
+    margin-top: auto;
+    padding: 10px;
+}
+.redes{
+    color: black;
+}
+
+.redes:hover{
+    color: white;
+}
+
+
