@@ -183,7 +183,17 @@ article{
     }
 }
 
-img {
+#proyectos img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    
+    animation-timeline: --image;
+    animation-name: show;
+
+    
+}
+
+#escolaridad img {
     view-timeline-name: --image;
     view-timeline-axis: block;
     
