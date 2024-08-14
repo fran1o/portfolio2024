@@ -1,10 +1,74 @@
 
 /*sm*/
-@media (min-width: 576px) {
+@media (min-width: 460px) {
+    nav ul{
+        list-style: none;
+        padding: 2px;
+    }
+    
+    nav ul li{
+        list-style: none;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 300 !important;
+        font-family: 'Josefin Sans', sans-serif;
+        
+    }
+    
+    
+    nav ul li a:hover{
+        color: #8cc9fa;
+        border-left: 1px solid white;
+        padding: 5px;
+    }
+    
+    nav ul li a:active {
+        color: #b0c0e0; /* Fondo al hacer clic */
+    }
+    
 }
 /*md*/
 @media (min-width: 768px) {
+    .nav-largo{
+        display: block;
+    }
+    .nav-ha{
+        display: none;
+    }
 
+    nav ul{
+        list-style: none;
+        padding: 2px;
+    }
+    
+    nav ul li{
+        list-style: none;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 300 !important;
+        font-family: 'Josefin Sans', sans-serif;
+        
+    }
+    
+    
+    nav ul li a:hover{
+        color: #265881;
+        border-left: 1px solid black;
+        padding: 5px;
+    }
+    
+    nav ul li a:active {
+        color: #b0c0e0; /* Fondo al hacer clic */
+    }
+    
 }
 /*lg*/
 @media (min-width: 992px) {
@@ -23,6 +87,15 @@ html{
     scroll-behavior: smooth;
 }
 
+.fondoGris{
+    background-color:rgba(193, 190, 190, 0.351);
+}
+
+
+.fondoBlanco{
+    background-color:white;
+}
+
 body{
     background-image: url(../img/fondosobremi.jpg);
     background-position: center;
@@ -33,7 +106,7 @@ body{
     min-height: 100vh;
 }
 
-body, h1, h2, h3, h4 {
+body, h1, h2, h4, h3 {
     font-weight: 300 !important;
     
 }
@@ -41,53 +114,14 @@ body, h1, h2, h3, h4 {
 h1, h2{
     font-family: 'Oswald', sans-serif;
 }
-
-
 header{
-    min-height: 100px;
+    min-height: 80px;
     max-height: 200px;
-    background-color: rgba(169, 205, 200, 0.866);
-}
-
-.fran{
-    font-weight: 350 !important;
-    font-family: "Noto Sans";
-    font-style: italic;
-    font-size: 30px;
-    color: black;
-    text-decoration: none;
+    background-color: white;
     
 }
 
-.fran:hover{
-    color: white;
-    border-left: 1px solid black;
-    padding: 5px;
 
-}
-nav ul{
-    list-style: none;
-    padding: 2px;
-}
-
-nav ul li{
-    list-style: none;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color:black;
-    font-size: 16px;
-    font-weight: 300 !important;
-    font-family: 'Josefin Sans', sans-serif;
-    
-}
-
-nav ul li a:hover{
-    color: white;
-    border-left: 1px solid black;
-    padding: 5px;
-}
 
 
 /*PORTADA*/
@@ -97,23 +131,57 @@ nav ul li a:hover{
     
 }
 
-.textoPortada{
-    font-family: "Noto Sans";
-    font-style: italic;
+.titles{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500 !important;
+    font-size: 2rem;
+}
+.subtitles{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    font-family: "Poppins", sans-serif;
+    margin-top: 2rem;
+    font-style: normal;
 }
 
-.contenedorRedesPortada{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 10px;
+
+.textoPortada{
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
 }
+
+.btn-color-1, .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-2{
+    background-color: rgb(53, 53, 53);
+    color: white
+}
+
+.btn-color-1-dowload{
+    background-color: rgba(106, 236, 106, 0.488);
+    color: black
+}
+.btn-color-2:hover{
+    background-color: white;
+    color: black;
+
+}
+.btn-color-1:hover{
+    background-color: rgb(237, 232, 232);
+    color: white;
+}
+
 
 .redesPortada{
     color: black;
 }
 
 .redesPortada:hover{
-    color: rgb(128, 106, 236);
+    color: rgba(128, 106, 236, 0.488);
 }
 
 
@@ -134,76 +202,33 @@ h4{
     
 }
 
-.figureYo{
-    border-top: 1px solid;
-}
-/*CONTACTO*/
-
-#contacto{
-    width: 300px;
-    height: 50vh;
-    background-color: rgba(169, 205, 200, 0.866);
-    position: fixed;
-    right: -270px;
-    transition: right 1s;
-}
-
-#contacto:hover{
-    right: 0;
-}
-
-#contacto p{
-    font-weight: 300 !important;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 
 /*PROYECTOS*/
-.fondo{
-    background-color: rgba(169, 205, 200, 0.866);
-}
 
-.divProyectos{
-    border: 1px solid white;
-}
 
-article{
-    padding: 10px;
-}
-
-@keyframes show{
-    from {
-        opacity: 0;
-        scale: 25%;
-    }
-
-    to{
-        opacity: 1;
-        scale: 100%;
-    }
-}
-
-#proyectos img {
-    view-timeline-name: --image;
-    view-timeline-axis: block;
-    
-    animation-timeline: --image;
-    animation-name: show;
-
+.card{
+    height: 500px;
+    width: 500px;
+    margin-top: 20px;
+    border: #AED1E6 solid 3px;
     
 }
 
-#escolaridad img {
-    view-timeline-name: --image;
-    view-timeline-axis: block;
-    
-    animation-timeline: --image;
-    animation-name: show;
-
-    
+.card:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #5d5d5d2f;
 }
 
+.contenedorFigure{
+    width: 100%;
+    height: 50%;
 
+}
+
+.card-img-top {
+    width: 100%;
+}
 
 article h2{
     color: white;
@@ -213,20 +238,129 @@ article img{
     width: 300px;
 }
 
-.verdemos{
+.windows2000-button {
+    background: linear-gradient(145deg, #e0e0e0, #b8b8b8); 
+    border: 1px solid #a0a0a0;
+    border-radius: 3px;
+    padding: 5px 10px; 
+    font-family: 'Tahoma', sans-serif;
+    font-size: 14px; 
+    cursor: pointer; 
+    box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0; 
+    outline: none; 
+    text-align: center;
+    user-select: none; 
+}
+
+.windows2000-button-dw {
+    background: linear-gradient(145deg, #e0e0e0, #b8b8b8); 
+    border: 1px solid #a0a0a0;
+    border-radius: 3px;
+    padding: 5px 10px; 
+    font-family: 'Tahoma', sans-serif;
+    font-size: 14px; 
+    cursor: pointer; 
+    box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0; 
+    outline: none; 
+    text-align: center;
+    user-select: none; 
+}
+
+.windows2000-button-dw:hover {
+    background: linear-gradient(145deg, #c0e0ff, #a0ffa8); /* Gradiente celeste para hover */
+    border-color: #90b0d0; /* Borde celeste más claro */
+    box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0, 0 0 5px #a0c8ff; /* Sombra externa para efecto hover */
+}
+
+.windows2000-button:hover {
+    background: linear-gradient(145deg, #c0e0ff, #a0c8ff); /* Gradiente celeste para hover */
+    border-color: #90b0d0; /* Borde celeste más claro */
+    box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0, 0 0 5px #a0c8ff; /* Sombra externa para efecto hover */
+}
+
+/*HABILIDADES*/
+
+.mac{
+    background-color: #262626;
+    border-radius: 10px;
+}
+
+.botones-mac{
+    display: flex;
+}
+.boton-rojo-mac{
+    height: 10px;
+    width: 10px;
+    margin-left: 15px;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.boton-rojo-mac:hover{
+    border: white solid 1px;
+
+}
+
+.boton-amarillo-mac{
+    height: 10px;
+    width: 10px;
+    margin-left: 5px;
+    background-color: #f9cd45;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.boton-amarillo-mac:hover{
+    border: white solid 1px;
+
+}
+
+.boton-verde-mac{
+    height: 10px;
+    width: 10px;
+    margin-left: 5px;
+    background-color: #46c23e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.boton-verde-mac:hover{
+    border: white solid 1px;
+
+}
+
+.buscador-mac{
+    background-color: #6b6b6b;
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    
+}
+
+.letras-mac{
     color: white;
-    text-decoration: none;
-    border-radius: 10%;
-    background-color: black;
-    padding: 10px;
 }
 
-.verdemos:hover{
-    color: black;
-    background-color: aquamarine;
+.section-flechas-buscador{
+    background-color:   #474747;  
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-/*APTITUDES*/
+.window-abierta{
+    background-color: #474747;
+    height: 30px;
+    border-radius: 3px;
+
+}
+
+.body-habilidades{
+    background-color: #474747;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
 
 ul li{
     list-style: none;
@@ -236,37 +370,99 @@ ul li{
 label{
     font-family: 'Oswald', sans-serif; 
 }
+
+.habilidadContainer{
+    cursor: pointer;
+    background-color: #262626;
+    color: white;
+    border-radius: 5px;
+}
+
+.habilidadContainer:hover{
+    background-color: #6b6b6b;
+}
+
+#formRange{
+    pointer-events: none; /* Evita la interacción */
+    opacity: 0.5; /* Hace que el slider se vea desactivado */
+}
 /*SOBRE MI*/
 
-.fondoGris{
-    background-color:rgba(193, 190, 190, 0.351);
+.mac-azul{
+    background-color: #0B2C47;
+    border-radius: 10px;
 }
 
-.vercv{
+
+.buscador-mac-azul{
+    background-color: #8199a19f;
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    
+}
+
+.body-sobremi{
+    background-color:   #6d7c813c;  
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.window-abierta-azul{
+    background-color: #6d7c813c;
+    height: 30px;
+    border-radius: 3px;
+}
+
+
+#sobremi{
     color: white;
-    text-decoration: none;
-    border-radius: 10%;
-    background-color: black;
-    padding: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+
 }
 
-.vercv:hover{
-    color: black;
-    background-color: aquamarine;
+.card-circular{
+    background-color: #8199a19f;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    
 }
+
+.fondoDiplomas{
+    background-color: #0B2C47;
+}
+.nanum-gothic-regular {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 14px;
+  }
+  
+
+.imgYo2{
+    border-radius: 10px;
+    opacity: 0.8;
+    max-height: 200px;
+}
+
+
 /*FOOTER*/
 
 footer{
-    background-color: rgba(169, 205, 200, 0.866);
+    background-color: #0B2C47;
     margin-top: auto;
     padding: 10px;
 }
 .redes{
-    color: black;
+    color: white;
+}
+
+.container-footer{
+    color: white;
 }
 
 .redes:hover{
-    color: white;
+    color: rgb(128, 106, 236);
 }
 
 
