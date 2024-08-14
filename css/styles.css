@@ -1,6 +1,6 @@
 
-/*sm*/
-@media (min-width: 460px) {
+@media (min-width: 370px) {
+
     nav ul{
         list-style: none;
         padding: 2px;
@@ -33,6 +33,7 @@
 }
 /*md*/
 @media (min-width: 768px) {
+
     .nav-largo{
         display: block;
     }
@@ -47,6 +48,47 @@
     
     nav ul li{
         list-style: none;
+    }
+    .windows2000-button {
+        background: linear-gradient(145deg, #e0e0e0, #b8b8b8); 
+        border: 1px solid #a0a0a0;
+        border-radius: 3px;
+        padding: 5px 10px; 
+        font-family: 'Tahoma', sans-serif;
+        font-size: 14px; 
+        cursor: pointer; 
+        box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0; 
+        outline: none; 
+        text-align: center;
+        user-select: none; 
+        color: black;
+    }
+    
+    .windows2000-button-dw {
+        background: linear-gradient(145deg, #e0e0e0, #b8b8b8); 
+        border: 1px solid #a0a0a0;
+        border-radius: 3px;
+        padding: 5px 10px; 
+        font-family: 'Tahoma', sans-serif;
+        font-size: 14px; 
+        cursor: pointer; 
+        box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0; 
+        outline: none; 
+        text-align: center;
+        user-select: none; 
+        color: black;
+    }
+    
+    .windows2000-button-dw:hover {
+        background: linear-gradient(145deg, #c0e0ff, #a0ffa8); /* Gradiente celeste para hover */
+        border-color: #90b0d0; /* Borde celeste más claro */
+        box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0, 0 0 5px #a0c8ff; /* Sombra externa para efecto hover */
+    }
+    
+    .windows2000-button:hover {
+        background: linear-gradient(145deg, #c0e0ff, #a0c8ff); /* Gradiente celeste para hover */
+        border-color: #90b0d0; /* Borde celeste más claro */
+        box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0, 0 0 5px #a0c8ff; /* Sombra externa para efecto hover */
     }
     
     nav ul li a{
@@ -238,45 +280,7 @@ article img{
     width: 300px;
 }
 
-.windows2000-button {
-    background: linear-gradient(145deg, #e0e0e0, #b8b8b8); 
-    border: 1px solid #a0a0a0;
-    border-radius: 3px;
-    padding: 5px 10px; 
-    font-family: 'Tahoma', sans-serif;
-    font-size: 14px; 
-    cursor: pointer; 
-    box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0; 
-    outline: none; 
-    text-align: center;
-    user-select: none; 
-}
 
-.windows2000-button-dw {
-    background: linear-gradient(145deg, #e0e0e0, #b8b8b8); 
-    border: 1px solid #a0a0a0;
-    border-radius: 3px;
-    padding: 5px 10px; 
-    font-family: 'Tahoma', sans-serif;
-    font-size: 14px; 
-    cursor: pointer; 
-    box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0; 
-    outline: none; 
-    text-align: center;
-    user-select: none; 
-}
-
-.windows2000-button-dw:hover {
-    background: linear-gradient(145deg, #c0e0ff, #a0ffa8); /* Gradiente celeste para hover */
-    border-color: #90b0d0; /* Borde celeste más claro */
-    box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0, 0 0 5px #a0c8ff; /* Sombra externa para efecto hover */
-}
-
-.windows2000-button:hover {
-    background: linear-gradient(145deg, #c0e0ff, #a0c8ff); /* Gradiente celeste para hover */
-    border-color: #90b0d0; /* Borde celeste más claro */
-    box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0, 0 0 5px #a0c8ff; /* Sombra externa para efecto hover */
-}
 
 /*HABILIDADES*/
 
