@@ -48,49 +48,7 @@
     
     nav ul li{
         list-style: none;
-    }
-    .windows2000-button {
-        background: linear-gradient(145deg, #e0e0e0, #b8b8b8); 
-        border: 1px solid #a0a0a0;
-        border-radius: 3px;
-        padding: 5px 10px; 
-        font-family: 'Tahoma', sans-serif;
-        font-size: 14px; 
-        cursor: pointer; 
-        box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0; 
-        outline: none; 
-        text-align: center;
-        user-select: none; 
-        color: black;
-    }
-    
-    .windows2000-button-dw {
-        background: linear-gradient(145deg, #e0e0e0, #b8b8b8); 
-        border: 1px solid #a0a0a0;
-        border-radius: 3px;
-        padding: 5px 10px; 
-        font-family: 'Tahoma', sans-serif;
-        font-size: 14px; 
-        cursor: pointer; 
-        box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0; 
-        outline: none; 
-        text-align: center;
-        user-select: none; 
-        color: black;
-    }
-    
-    .windows2000-button-dw:hover {
-        background: linear-gradient(145deg, #c0e0ff, #a0ffa8); /* Gradiente celeste para hover */
-        border-color: #90b0d0; /* Borde celeste más claro */
-        box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0, 0 0 5px #a0c8ff; /* Sombra externa para efecto hover */
-    }
-    
-    .windows2000-button:hover {
-        background: linear-gradient(145deg, #c0e0ff, #a0c8ff); /* Gradiente celeste para hover */
-        border-color: #90b0d0; /* Borde celeste más claro */
-        box-shadow: inset 1px 1px 3px #ffffff, inset -1px -1px 3px #a0a0a0, 0 0 5px #a0c8ff; /* Sombra externa para efecto hover */
-    }
-    
+    }    
     nav ul li a{
         text-decoration: none;
         color: black;
@@ -159,7 +117,7 @@ h1, h2{
 header{
     min-height: 80px;
     max-height: 200px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.642);
     
 }
 
@@ -281,6 +239,18 @@ article img{
 }
 
 
+.botones-lenguajes{
+    border: #AED1E6 solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    text-overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.botones-lenguajes:hover{
+    background-color: white;
+}
 
 /*HABILIDADES*/
 
