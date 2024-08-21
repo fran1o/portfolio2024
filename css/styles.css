@@ -124,6 +124,7 @@ header{
 
 
 
+
 /*PORTADA*/
 
 .portadaContainer{
@@ -405,7 +406,7 @@ label{
 }
 
 .fondoDiplomas{
-    background-color: #0B2C47;
+    background-color: white;
 }
 .nanum-gothic-regular {
     font-family: "Nanum Gothic", sans-serif;
@@ -416,7 +417,7 @@ label{
 .imgYo2{
     border-radius: 10px;
     opacity: 0.8;
-    max-height: 200px;
+    max-height: 400px;
 }
 
 
