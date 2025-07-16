@@ -1,7 +1,7 @@
 @media (min-width: 200px) {
     .imgYo{
         border-radius: 50%;
-        opacity: 0.8;
+        opacity: 0.9;
         max-height: 150px;
         
     }
@@ -39,7 +39,7 @@
     }
     .imgYo{
         border-radius: 50%;
-        opacity: 0.8;
+        opacity: 0.9;
         max-height: 150px;
         
     }
@@ -49,6 +49,16 @@
 }
 /*md*/
 @media (min-width: 768px) {
+
+    .diploma-img-container {
+    border: 8px solid gold;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    }
 
     .nav-largo{
         display: block;
@@ -86,7 +96,7 @@
     }
     .imgYo{
         border-radius: 50%;
-        opacity: 0.8;
+        opacity: 0.9;
         max-height: 300px;
         
     }
@@ -433,7 +443,7 @@ label{
 
 .imgYo2{
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 0.6;
     max-height: 400px;
 }
 
